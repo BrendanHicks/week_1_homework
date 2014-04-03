@@ -3,6 +3,84 @@ body {
   font-size: 16pt;
 }
 
+.mediumfont{
+  font-size: 125%;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.weeknum{
+  -webkit-transform: rotate(-90deg);
+}
+
+.blackbackground{
+  background-color: black;
+}
+
+.graybackground{
+  background-color: #D3D3D3;
+}
+
+table,th,tr{
+  border: 1.5px solid black;
+  padding: 0px
+}
+
+table{
+    border-collapse:collapse;
+    margin: auto;
+}
+
+.blueborder{
+  border-color: #D3D3D3;
+}
+
+.whitetext{
+  color: white;
+}
+
+.italic{
+  font-style: Italic;
+}
+
+.leftalign{
+  text-align: left;
+}
+
+.rightalign{
+  text-align: right;
+}
+
+.space{
+  letter-spacing: 2.5px;
+}
+
+.topborder{
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 4px;
+}
+
+.bottomborder{
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+}
+
+.centered{
+  text-align: center;
+}
+
+
+
+
 
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
