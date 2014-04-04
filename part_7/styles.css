@@ -1,5 +1,23 @@
 /* Make the invisible visible */
 
+.Height200{
+	height: 200px;
+}
+
+.LightGray{
+	background-color: LightGray;
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatcenter{
+	float: left;
+	left: 50%
+}
+
+
 * {
   border: thin red solid;
 }
