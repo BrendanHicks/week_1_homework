@@ -8,13 +8,47 @@
 	background-color: LightGray;
 }
 
-.floatleft{
+.floatthird{
 	float: left;
+	width: 33%;
 }
 
-.floatcenter{
+.float-two-third{
 	float: left;
-	left: 50%
+	width: 66%;
+}
+
+.floatquarter{
+	float: left;
+	width: 25%
+}
+
+.button{
+	display:block;
+	height: 30px;
+	width: 150px;
+	background: blue;
+	border: 1px solid red;
+
+	color: white;
+	text-align: center;
+	font: bold 17/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+	background: -webkit-linear-gradient(top,blue,#000099);
+	border-radius: 50px;
+	box-shadow: 0 8px 0 #1b383b;
+	text-shadow: 0 2px 2px white;
+}
+
+a.button{
+	text-decoration: none;
+}
+
+a.button:hover {
+	background: #3d7a80;
+}
+.row{
+	clear: both;
 }
 
 
