@@ -1,16 +1,59 @@
 body {
   font-family: "Computer Modern Serif";
   font-size: 16pt;
+}
 
+.mediumfont{
+  font-size: 125%;
+
+}
+
+.CenterText{
+  text-align: center;
+}
+
+.body{
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-table{
+.right{
+  text-align: right;
+}
+
+.Weekname{
+  text-align: center;
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.weeknum{
+  -webkit-transform: rotate(-90deg);
+  font-weight: bold;
+}
+
+.blackbackground{
+  background-color: black;
+}
+
+.graybackground{
+  background-color: #CC99CC;
+}
+
+.Helvetica{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border-collapse:collapse;
-    margin: auto;
+}
+
+.rowheight50{
+  height: 50px
 }
 
 table,th,tr{
@@ -18,86 +61,72 @@ table,th,tr{
   padding: 0px
 }
 
-h2{
+table{
+    border-collapse:collapse;
+    margin: auto;
+}
+
+.blueborder{
+  border-color: #D3D3D3;
+}
+
+.leftborder{
+  border-left: solid black 1px;
+}
+
+.whitetext{
+  color: white;
+}
+
+.italic{
+  font-style: Italic;
+}
+
+.leftalign{
+  text-align: left;
+}
+
+.rightalign{
+  text-align: right;
+}
+
+.space{
+  letter-spacing: 2.5px;
+}
+
+.topborder{
   border-top-style: solid;
   border-top-color: black;
   border-top-width: 4px;
+}
 
+.notopborder{
+  border-top-style: none; 
+}
+
+.nobottomborder{
+  border-bottom-style: none;
+}
+
+.bottomborder{
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 2px;
-
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-
-  letter-spacing: 3px;
-
-  text-transform: uppercase;
 }
 
-
-h1{
-  letter-spacing: 3.5px;
-  text-align: center
+.centered{
+  text-align: center;
 }
 
-
-.odd_week{
- background-color: #CC99CC;
-  
-}
-
-.week{
-  -webkit-transform: rotate(-90deg);
+.bold{
   font-weight: bold;
 }
 
-th{
-  background-color: black;
-  color: white;
 
-  text-align: center;
-
-}
-
-small{
-  font-style: italic;
-  font-size: 40%;
-}
-
-.subtitle{
-   text-align: center;
-   font-style: italic;
-   font-size: 110%; 
-   
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.borderleft{
-  border-left: 1.5px solid black;
-}
-
-footer{
-
-  text-align: right;
-
-  text-transform: uppercase;   
-
-  text-decoration: none;
-
-  font-style: normal;   
-}
-
-a{
-  text-decoration: none;
-}
-
-blockquote{
-  font-style: italic;
+.chartborder{
+  border-top-style: solid;
+  border-top-color: gray;
+  border-top-width: 1px;
 }
 
 /* ----------------------------------------------------------------- */
